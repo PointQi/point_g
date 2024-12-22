@@ -1,0 +1,28 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@engine": ["./engine/index.ts"],
+			"@role_control": ["./role_control/index.ts"],
+			"@shared/api/*": ["./shared/api/*"],
+			"@shared/component/*": ["./shared/component/*"],
+			"@shared/composable/*": ["./shared/composable/*"],
+			"@shared/const/*": ["./shared/const/*"],
+			"@shared/request": ["./shared/request/index.ts"],
+			"@shared/router": ["./shared/router/index.ts"],
+			"@shared/utils/*": ["./shared/utils/*"]
+		}
+	},
+	"include": [
+		"app/**/*.ts",
+		"app/**/*.vue",
+		"engine/**/*.ts",
+		"engine/**/*.vue",
+		"role_control/**/*.ts",
+		"role_control/**/*.vue",
+		"shared/**/*.ts",
+		"shared/**/*.vue",
+		"types/**/*.d.ts"
+	]
+}

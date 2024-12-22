@@ -1,0 +1,9 @@
+{
+	"cSpell.userWords": ["serverx", "viewx", "consola", "axios", "iconfont", "unplugin", "vueuse", "animejs"],
+	"[vue]": {
+		"editor.defaultFormatter": "Vue.volar"
+	},
+	"eslint.validate": ["javascript", "typescript", "html", "vue"],
+	"vue.complete.casing.tags": "kebab",
+	"html.format.wrapAttributes": "force-aligned"
+}
